@@ -1,0 +1,192 @@
+<link href="https://fonts.googleapis.com/css2?family=Nova+Round&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+<head>
+<style>
+  body{
+background-color:#d4efc2;
+height:100%;
+width:100%;
+  }
+  .main{
+  background-color:#d4efc2; 
+    border:solid 0.5px #1ce38f;
+  }
+  img{
+  display:flex;
+  width:100px;
+  height:100px;
+  float:left;
+   
+}
+
+  
+}
+header{
+  border:dotted 2px #dcc723;
+  border-radius:15px;
+  font-size:45px;
+}
+.header{
+  border:dotted 2px #dcc723;
+  border-radius:15px;
+  font-size:45px;
+}
+h1{
+
+    display:flex;
+  justify-content:center;
+  font-family:Nova round;
+  font-size:30px;
+  color:#da2561;
+  
+  padding-left:50px;
+  padding-right:50px;
+}
+h2{
+  display:flex;
+    justify-content:center;
+  justify-content:center;
+   color:#1586af;
+  font-family:Nova round;
+  font-size:15px;
+}
+
+@media(max-width :600px){
+  
+    header{
+      flex-wrap:wrap;
+      
+    }
+  @media(max:width 600px){
+    nav-bar{
+      flex-wrap:wrap;
+      margin-top:-3000px;
+    }
+  }
+}
+.heading{
+  display:flex;
+  flex-direction:flex-start;
+  padding:20px 40px 20px 95px;
+  font-size:28px;
+   font-weight:bold;
+  border:dotted 2px #dcc723;
+  border-radius:60px;
+  font-family:IM Fell Double Pica;
+  margin:20px 10px 10px 170px;
+  font-align:auto; 
+width:150px;
+
+}
+.nav-bar{
+display:flex;
+position:absolute;
+margin-top:-1480px;
+width:150px;
+height:90%;
+padding-top:3px;
+font-size:26px;
+font-weight:1000;
+font-family:IM Fell Double Pica;
+flex-direction:column;
+text-align:center;
+ background-color:#c0e8a7;
+border:dotted 2px #dcc723;
+border-radius:10px;
+}
+
+.heading:hover{
+  background-color:#af60e5;
+}
+.description{
+  display:flex;
+  flex-direction:column;
+  position:relative;
+  padding:1px 40px 20px 200px;
+  font-size:20px;
+  font-family:niconne;
+}
+.pricing{
+  font-family:Showcard Gothic;
+  color:#1586af;
+  margin-left:250px;
+  
+}
+.contact{
+  margin-left:250px;
+  font-family:Elephant;
+  color:#b7a848;
+}
+.disclaim{
+  margin-top:500px;
+  display:flex;
+  flex-direction:column;
+  
+}
+.video{
+  margin-left:200px;
+}
+
+</style>
+
+<body class="main">
+<header class="header">  
+  <img id="header-img" src="https://i.imgur.com/Jq3vNzo.jpg">
+<img id="header-img" style="float:right" src="https://i.imgur.com/Jq3vNzo.jpg">
+
+<h1 id="header" >Ashwagandha Anti-Stress Tablets</h1>
+<h2>"Take one a day, keep the stress at bay"</h2>
+</header>
+<main>
+  <div>
+  <p id="history" class="heading">History</p>
+<p class="description">Ayurveda is considered by many scholars to be the oldest healing science. In Sanskrit, Ayurveda means “The Science of Life.” Ayurvedic knowledge originated in India more than 5,000 years ago and is often called the “Mother of All Healing.” It stems from the ancient Vedic culture and was taught for many thousands of years in an oral tradition from accomplished masters to their disciples. Some of this knowledge was set to print a few thousand years ago, but much of it is inaccessible. The principles of many of the natural healing systems now familiar in the West have their roots in Ayurveda, including Homeopathy and Polarity Therapy. </p>
+<div id="medicinal" class="heading">Medicinal Properties</div>
+
+  <ol class="description">
+    <li>The benefits of Ashwagandha are perfect for those battling stress, as it inhibits high levels of cortisol, 'the stress hormone'. It is in fact used in tranquilizers and antidepressants drugs, since it helps relieve physical and mental stress and overcome depression.</li>
+    <li>Ashwagandha has a rich history in Ayurveda for its wound healing abilities. Traditionally, fresh leaves were used topically to heal joint pains, skin sores and to reduce swelling.</li>
+    <li>The results, published in the Indian Journal of Psychological Medicine show that Ashwagandha helps promote relaxation as it is a natural adaptogen.</li>
+
+    </ol>
+
+<div id="productdetails" class="heading">Product Details</div>
+<iframe class="video"width="560" height="315" src="https://www.youtube.com/embed/A_lZQgW73y4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <ol class="description">
+      <li>To combat stress and live a more balanced life, it’s essential to optimize adrenal gland function. Anti-Stress tablet, is our best-selling formula traditionally for the stressed and overworked to help sustain healthy energy and stress levels.</li>
+      <li>Contains a synergistic blend of adaptogenic herbs, including Rhodiola, Holy Basil, Ashwagandha, and Schisandra</li>
+      <li>With AAS® Oats, extracted fresh immediately after harvest to preserve full spectrum compounds for optimal potency</li>
+      <li>Supports the healthy function of adrenals and helps balance the body during times of stress.</li>
+      <li>A popular formula for those feeling overwhelmed and rundown to help support balance and maintain well-being.</li>
+    </ol>
+    <div id="pricing" class="heading">Pricing</div>
+    <ul class="pricing">
+      <li>Rs.250/- for a bottle of 100 tablets.</li>
+    </ul>
+<div id="contactus" class="heading">Contact Us</div>
+    <ul class="contact">
+      <li>Phone-+911100001111</li>
+      <li>Email-aastablets@ashwagandha.com</li>
+      <li>Website-www.ashwagandha.com/aastablets</li>
+    </ul>
+  <div class="nav-bar" >
+    <a href="#history">History</a><br>
+    <a href="#medicinal">Medicinal Properties</a><br>
+        <a href="#healthbenefits">Health Benefits</a><br>
+    <a href="#productdetails">Product Details</a><br>
+        <a href="#pricing">Pricing</a><br>
+    <a href="#contactus">Contact Us</a><br>
+</div>
+
+
+<footer>
+    <ul class="disclaim" style="font:small-caption">
+      <li><b>Disclaimer:<b></li>
+      <li>All the items/contents cited above are only shown as a part of project work & are from various sources available on the internet</li>
+      <li>All contents belongs to the respective owners.</li>
+    </ul>
+      </footer>
+</main>
+  
+  </body>
